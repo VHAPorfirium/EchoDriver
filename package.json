@@ -1,0 +1,12 @@
+{
+  "name": "echo-diver",
+  "version": "1.0.0",
+  "description": "Super Free AI Game Jam #2 entry. Your sonar shows the way. It also tells them where you are.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes http-server . -p 8080 -c-1 -o",
+    "test": "node --test",
+    "release": "node scripts/buildRelease.js"
+  }
+}
